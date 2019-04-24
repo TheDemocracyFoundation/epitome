@@ -20,6 +20,6 @@ Take a look at [CONTRIBUTING.md](CONTRIBUTING.md)
 
 -----------------------------------
 
-[![AGPL3](https://www.gnu.org/graphics/agplv3-155x51.png)](LICENSE.txt)
+[![AGPL3](https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/AGPLv3_Logo.svg/220px-AGPLv3_Logo.svg.png)](LICENSE.txt)
 [![Angular](https://angular.io/assets/images/logos/angular/angular.png)](https://angular.io/)
 
