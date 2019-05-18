@@ -1,0 +1,21 @@
+<div class="container ">
+  <div class="row">
+    <div class="col s12 m6 offset-m3">
+      <div class="card-panel z-depth-5">
+        <h4 class="center">{{ loginHeader }}</h4>
+        <div class="row">
+
+          <app-login *ngIf="login"></app-login>
+          <app-registration *ngIf="!login"></app-registration>
+
+        </div>
+        <button (click)="submit()" class="btn waves-effect waves-light center" type="submit" name="action">{{ submitButton }}
+          <i class="fa fa-sign-in right"></i>
+        </button>
+        <button (click)="toggle()" class="btn waves-effect waves-light center" type="submit" name="action">{{ toggleButton }}
+          <i class="fa fa-sign-in right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
