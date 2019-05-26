@@ -3,28 +3,26 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './components/auth/login/login.component';
-import { PagesComponent } from './components/pages.component';
-import { LandingComponent } from './components/landing/landing.component';
-import { AuthComponent } from './components/auth/auth.component';
-import { HomeComponent } from './components/home/home.component';
-import { RegistrationComponent } from './components/auth/registration/registration.component';
-import { NavbarComponent } from './components/common/navbar/navbar.component';
+import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
-    PagesComponent,
-    LandingComponent,
-    AuthComponent,
-    HomeComponent,
-    RegistrationComponent,
-    NavbarComponent
+    NavigationBarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LayoutModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
