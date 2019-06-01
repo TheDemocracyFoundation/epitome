@@ -1,15 +1,34 @@
 import { TestBed, async } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
+import {NoopAnimationsModule} from "@angular/platform-browser/animations";
+import {LayoutModule} from "@angular/cdk/layout";
+import {NavigationBarComponent} from "./navigation-bar/navigation-bar.component";
+import {MatToolbarModule} from '@angular/material/typings';
+import {MatSidenav, MatSidenavContainer, MatSidenavContent, MatSidenavModule} from "@angular/material/typings/sidenav";
+import {MatListModule, MatNavList} from "@angular/material/typings/list";
+import {MatIcon} from "@angular/material/typings/icon";
+
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [
-        RouterTestingModule
+        RouterTestingModule,
+        NoopAnimationsModule,
+        LayoutModule,
+        MatToolbarModule,
+        MatSidenavModule,
+        MatListModule
       ],
       declarations: [
-        AppComponent
+        AppComponent,
+        NavigationBarComponent,
+        MatSidenav,
+        MatSidenavContainer,
+        MatSidenavContent,
+        MatIcon,
+        MatNavList
       ],
     }).compileComponents();
   }));

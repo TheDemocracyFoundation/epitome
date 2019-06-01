@@ -1,15 +1,13 @@
 import { LayoutModule } from '@angular/cdk/layout';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import {
-  MatButtonModule,
-  MatIconModule,
-  MatListModule,
-  MatSidenavModule,
-  MatToolbarModule,
-} from '@angular/material';
 
 import { NavigationBarComponent } from './navigation-bar.component';
+import {MatButtonModule} from "@angular/material";
+import {MatIconModule} from "@angular/material/typings/icon";
+import {MatListModule} from "@angular/material/typings/list";
+import {MatSidenavModule} from "@angular/material/typings/sidenav";
+import {MatToolbarModule} from "@angular/material/typings/toolbar";
 
 describe('NavigationBarComponent', () => {
   let component: NavigationBarComponent;
@@ -25,7 +23,7 @@ describe('NavigationBarComponent', () => {
         MatIconModule,
         MatListModule,
         MatSidenavModule,
-        MatToolbarModule,
+        MatToolbarModule
       ]
     }).compileComponents();
   }));
