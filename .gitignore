@@ -19,3 +19,4 @@ testem.log
 /e2e/*.map
 
 yarn.lock
+package-lock.json
