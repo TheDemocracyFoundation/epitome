@@ -4,10 +4,10 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 import { NavigationBarComponent } from './navigation-bar.component';
 import {MatButtonModule} from "@angular/material";
-import {MatIconModule} from "@angular/material/typings/icon";
-import {MatListModule} from "@angular/material/typings/list";
-import {MatSidenavModule} from "@angular/material/typings/sidenav";
-import {MatToolbarModule} from "@angular/material/typings/toolbar";
+import {MatIconModule} from "@angular/material/icon";
+import {MatListModule} from "@angular/material/list";
+import {MatSidenavModule} from "@angular/material/sidenav";
+import {MatToolbarModule} from "@angular/material/toolbar";
 
 describe('NavigationBarComponent', () => {
   let component: NavigationBarComponent;

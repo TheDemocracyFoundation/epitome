@@ -4,10 +4,10 @@ import { AppComponent } from './app.component';
 import {NoopAnimationsModule} from "@angular/platform-browser/animations";
 import {LayoutModule} from "@angular/cdk/layout";
 import {NavigationBarComponent} from "./navigation-bar/navigation-bar.component";
-import {MatToolbarModule} from '@angular/material/typings';
-import {MatSidenav, MatSidenavContainer, MatSidenavContent, MatSidenavModule} from "@angular/material/typings/sidenav";
-import {MatListModule, MatNavList} from "@angular/material/typings/list";
-import {MatIcon} from "@angular/material/typings/icon";
+import {MatToolbarModule} from '@angular/material';
+import {MatSidenav, MatSidenavContainer, MatSidenavContent, MatSidenavModule} from "@angular/material/sidenav";
+import {MatListModule, MatNavList} from "@angular/material/list";
+import {MatIcon} from "@angular/material/icon";
 
 
 describe('AppComponent', () => {
